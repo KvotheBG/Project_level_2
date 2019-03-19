@@ -18,14 +18,10 @@ include 'database.php';
 		</a>
 	</div>
 	<div class="img-btn">
-		<a href="new_game.php">
-			<img src="img/leader_board.png" alt="leader board">
-		</a>
+		<img src="img/leader_board.png" alt="leader board">
 	</div>
 	<div class="img-btn">
-		<a href="history.php">
 		<img src="img/history.png" alt="history">
-		</a>
 	</div>
 	<div class="img-btn logout">
 		<img src="img/logout.png" alt="logout">

@@ -53,17 +53,3 @@ img:hover {
 .center {
   text-align: center;
 }
-.logo{
-  height: 300px;
-  width: 800px;
-}
-.color {
-  color: #00B526;
-}
-table{
-  background-color: #0006;
-  border: solid;  
-}
-tr{
-  color: #fff;
-}
