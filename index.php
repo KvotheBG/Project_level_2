@@ -1,4 +1,5 @@
 <?php
+session_start();
 include 'include/database.php';
 ?>
 <!DOCTYPE html>
@@ -11,8 +12,8 @@ include 'include/database.php';
 	<title>HANGMAN</title>
 </head>
 <body>
-	<div>
-		<h1 class="center">HANGMAN</h1>
+	<div class="center">
+		<img src="img/hangman.png" alt="HANGMAN" class="logo">
 	</div>
 	<div>
 
@@ -35,7 +36,7 @@ include 'include/database.php';
 
 			while ($row = mysqli_fetch_assoc($result) ) {
 				if ($_POST['name']==$row['user_name'] && $_POST['password']==$row['password']) {
-					header('Location: read.php');
+					header('Location: new_game.php');
 					$_SESSION['user'] = $_POST['name'];
 				}else {
 					$answer = "Incorrect username or password. Please try again!!!";
@@ -50,7 +51,7 @@ include 'include/database.php';
 
 	<div class="center">
 		<form class="col-lg-12">
-			<p></p>
+			<p>You don`t have Account?</p>
 			<a href="create_acc.php" class="btn btn-default btn-primary"> CREATE ACCOUNT </a>
 		</form>
 	</div>

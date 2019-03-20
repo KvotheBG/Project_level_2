@@ -15,7 +15,7 @@ include 'include/database.php';
 	<!-- LOGO, HOME BUTTON -->
 
 	<div class="center">
-		<h1>HANGMAN</h1>
+		<a href="index.php"><img src="img/hangman.png" alt="HANGMAN" class="logo"></a>
 		<h2>Create your account</h2>
 	</div>
 	<div>
@@ -41,6 +41,9 @@ include 'include/database.php';
 			
 				if($result){
 					echo "<h2> Success! </h2>";
+				?>
+				<a href="index.php" class="btn btn-default">Back</a>
+				<?php
 				}
 			}
 			?>
