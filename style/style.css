@@ -1,0 +1,82 @@
+body {
+  background: url(background.jpg);
+  background-size: 100%;
+  color: #000;
+}
+img {
+  height: 80px;
+  width: 240px;
+  -webkit-filter: drop-shadow(5px 5px 5px #000);
+  filter: drop-shadow(5px 5px 5px #000000);
+}
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+  -webkit-filter: drop-shadow(5px 7px 12px #000);
+  filter: drop-shadow(5px 7px 12px #000000);
+}
+.img-btn {
+  display: inline-block;
+}
+.logout {
+  float: right;
+  margin-right: 30px;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  background: #0006;
+  color: #FFFFFF;
+  border-top: solid;
+  border-color: #000000;
+}
+.new_game {
+  padding-top: 7%;
+  width: 100%;
+}
+.vertical {
+  margin: 0 auto;
+  width: 20%;
+}
+.vertical img {
+  width: 100%;
+}
+.leanguage img {
+  height: 60px;
+  width: 240px;
+  padding-left: 90px;
+}
+.new_game img {
+  -webkit-filter: drop-shadow(5px 0px 30px #000);
+  filter: drop-shadow(5px 0px 30px #000000);
+}
+.center {
+  text-align: center;
+}
+.logo{
+  height: 300px;
+  width: 800px;
+}
+.color {
+  color: #00B526;
+}
+table{
+  background-color: #0006;
+  border: solid;  
+}
+tr{
+  color: #fff;
+}
+.h2{
+  padding-top: 2%;
+}
+.h3{
+  padding-top: 7%;
+}
+.hangman{
+  height: 400px;
+  width: 600px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
