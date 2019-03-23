@@ -7,7 +7,7 @@ session_start();
 	<meta charset="UTF-8">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" integrity="sha384-PmY9l28YgO4JwMKbTvgaS7XNZJ30MK9FAZjjzXtlqyZCqBY6X6bXIkM++IkyinN+" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="en/style/style.css">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
 	<title>HANGMAN</title>
 </head>
 <body>
